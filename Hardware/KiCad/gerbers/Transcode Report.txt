@@ -1,0 +1,52 @@
+
+
+   ---- Transcoding 'C:\Projects\TeensyController\teensy4_controller\gerbers\teensy4_controller-F_Cu.gbr' ----   Thu Aug 20 22:08:56 2020
+
+D14   --> D100
+D16   --> D101
+D17   --> D102
+D18   --> D103
+D19   --> D104
+D20   --> D105
+D22   --> D106
+D23   --> D107
+D24   --> D108
+D25   --> D109
+D26   --> D110
+D27   --> D111
+D28   --> D112
+D29   --> D113
+D30   --> D114
+D31   --> D115
+D32   --> D116
+D33   --> D117
+D34   --> D118
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Projects\TeensyController\teensy4_controller\gerbers\teensy4_controller-F_SilkS.gbr' ----   Thu Aug 20 22:08:56 2020
+
+D10   --> D119
+D11   --> D120
+D12   --> D121
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Projects\TeensyController\teensy4_controller\gerbers\teensy4_controller-In1_Cu.gbr' ----   Thu Aug 20 22:08:56 2020
+
+D31   --> D122
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Projects\TeensyController\teensy4_controller\gerbers\teensy4_controller-In2_Cu.gbr' ----   Thu Aug 20 22:08:56 2020
+
+D31   --> D123
+D33   --> D124
+D34   --> D125
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Projects\TeensyController\teensy4_controller\gerbers\teensy4_controller-Margin.gbr' ----   Thu Aug 20 22:08:56 2020
+
+D10   --> D126
+-----------------------------------------------------------------

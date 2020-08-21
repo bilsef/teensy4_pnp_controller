@@ -14,23 +14,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Label 6150 2100 0    50   ~ 0
-X_DIR
+A_DIR
 Text Label 6150 2200 0    50   ~ 0
-X_STEP
+A_STEP
 Text Label 6500 2500 2    50   ~ 0
-X_ENABLE
+A_ENABLE
 Text Label 6150 2800 0    50   ~ 0
-Y_DIR
+B_DIR
 Text Label 6150 2900 0    50   ~ 0
-Y_STEP
+B_STEP
 Text Label 6500 3500 2    50   ~ 0
-Y_ENABLE
+B_ENABLE
 Text Label 10350 3800 2    50   ~ 0
 Z_STOP
 Text Label 6150 3700 0    50   ~ 0
-Z_DIR
+C_DIR
 Text Label 6150 3800 0    50   ~ 0
-Z_STEP
+C_STEP
 Wire Wire Line
 	9350 3200 10400 3200
 Wire Wire Line
@@ -40,7 +40,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 4100 7150 4100
 Text Label 6500 4100 2    50   ~ 0
-Z_ENABLE
+C_ENABLE
 Wire Wire Line
 	7150 1900 6950 1900
 Wire Wire Line
@@ -121,7 +121,7 @@ U 1 1 5DF5B86E
 P 12900 8100
 F 0 "J1" H 12818 8417 50  0000 C CNN
 F 1 "Screw_Terminal_01x04" H 12818 8326 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal" H 12900 8100 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal" H 12900 8100 50  0001 C CNN
 F 3 "~" H 12900 8100 50  0001 C CNN
 	1    12900 8100
 	-1   0    0    -1  
@@ -190,7 +190,7 @@ L Device:CP1 C1
 U 1 1 5DF7A7C1
 P 2400 8000
 F 0 "C1" H 2515 8046 50  0000 L CNN
-F 1 "CP1" H 2515 7955 50  0000 L CNN
+F 1 "47uF" H 2515 7955 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 2400 8000 50  0001 C CNN
 F 3 "~" H 2400 8000 50  0001 C CNN
 	1    2400 8000
@@ -452,19 +452,19 @@ Connection ~ 5800 7850
 Wire Wire Line
 	4600 8550 3550 8550
 Text Label 4150 8550 0    50   ~ 0
-X_STEP
+A_STEP
 Wire Wire Line
 	4600 8650 3550 8650
 Text Label 4150 8650 0    50   ~ 0
-X_DIR
+A_DIR
 Wire Wire Line
 	8000 8550 6950 8550
 Text Label 7550 8550 0    50   ~ 0
-Y_STEP
+B_STEP
 Wire Wire Line
 	8000 8650 6950 8650
 Text Label 7550 8650 0    50   ~ 0
-Y_DIR
+B_DIR
 Wire Wire Line
 	4600 8450 3550 8450
 Wire Wire Line
@@ -485,7 +485,7 @@ L 74xGxx:74LVC3G06 U1
 U 2 1 5E1E7493
 P 2750 1950
 F 0 "U1" H 2725 2217 50  0000 C CNN
-F 1 "74LVC3G06" H 2725 2126 50  0000 C CNN
+F 1 "74LVC3G07" H 2725 2126 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 2750 1950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2750 1950 50  0001 C CNN
 	2    2750 1950
@@ -496,7 +496,7 @@ L 74xGxx:74LVC3G06 U1
 U 3 1 5E1EA806
 P 2750 2400
 F 0 "U1" H 2725 2667 50  0000 C CNN
-F 1 "74LVC3G06" H 2725 2576 50  0000 C CNN
+F 1 "74LVC3G07" H 2725 2576 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 2750 2400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2750 2400 50  0001 C CNN
 	3    2750 2400
@@ -507,7 +507,7 @@ L 74xGxx:74LVC3G06 U2
 U 2 1 5E223390
 P 2750 3300
 F 0 "U2" H 2725 3567 50  0000 C CNN
-F 1 "74LVC3G06" H 2725 3476 50  0000 C CNN
+F 1 "74LVC3G07" H 2725 3476 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 2750 3300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2750 3300 50  0001 C CNN
 	2    2750 3300
@@ -518,7 +518,7 @@ L 74xGxx:74LVC3G06 U2
 U 3 1 5E223396
 P 2750 3750
 F 0 "U2" H 2725 4017 50  0000 C CNN
-F 1 "74LVC3G06" H 2725 3926 50  0000 C CNN
+F 1 "74LVC3G07" H 2725 3926 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 2750 3750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2750 3750 50  0001 C CNN
 	3    2750 3750
@@ -529,7 +529,7 @@ L 74xGxx:74LVC3G06 U2
 U 1 1 5E22339C
 P 2750 4200
 F 0 "U2" H 2725 4467 50  0000 C CNN
-F 1 "74LVC3G06" H 2725 4376 50  0000 C CNN
+F 1 "74LVC3G07" H 2725 4376 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 2750 4200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2750 4200 50  0001 C CNN
 	1    2750 4200
@@ -589,7 +589,7 @@ L 74xGxx:74LVC3G06 U1
 U 1 1 5E1EDA0D
 P 2750 2850
 F 0 "U1" H 2725 3117 50  0000 C CNN
-F 1 "74LVC3G06" H 2725 3026 50  0000 C CNN
+F 1 "74LVC3G07" H 2725 3026 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 2750 2850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2750 2850 50  0001 C CNN
 	1    2750 2850
@@ -791,7 +791,7 @@ U 1 1 5E0362C1
 P 5800 6700
 F 0 "C5" H 5915 6746 50  0000 L CNN
 F 1 "47pF" H 5915 6655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5838 6550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5838 6550 50  0001 C CNN
 F 3 "~" H 5800 6700 50  0001 C CNN
 	1    5800 6700
 	1    0    0    -1  
@@ -1106,15 +1106,15 @@ Connection ~ 9200 7850
 Wire Wire Line
 	11400 8550 10350 8550
 Text Label 10950 8550 0    50   ~ 0
-Z_STEP
+C_STEP
 Wire Wire Line
 	11400 8650 10350 8650
 Text Label 10950 8650 0    50   ~ 0
-Z_DIR
+C_DIR
 Wire Wire Line
 	11400 8450 10350 8450
 Text Label 10950 8450 0    50   ~ 0
-Z_ENABLE
+C_ENABLE
 $Comp
 L Connector_Generic:Conn_01x04 J18
 U 1 1 5F4EDE9A
@@ -1167,7 +1167,7 @@ L 74xGxx:74LVC3G06 U3
 U 1 1 5F51822D
 P 2750 5550
 F 0 "U3" H 2725 5817 50  0000 C CNN
-F 1 "74LVC3G06" H 2725 5726 50  0000 C CNN
+F 1 "74LVC3G07" H 2725 5726 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 2750 5550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2750 5550 50  0001 C CNN
 	1    2750 5550
@@ -1178,7 +1178,7 @@ L 74xGxx:74LVC3G06 U3
 U 2 1 5F518233
 P 2750 4650
 F 0 "U3" H 2725 4917 50  0000 C CNN
-F 1 "74LVC3G06" H 2725 4826 50  0000 C CNN
+F 1 "74LVC3G07" H 2725 4826 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 2750 4650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2750 4650 50  0001 C CNN
 	2    2750 4650
@@ -1189,7 +1189,7 @@ L 74xGxx:74LVC3G06 U3
 U 3 1 5F518239
 P 2750 5100
 F 0 "U3" H 2725 5367 50  0000 C CNN
-F 1 "74LVC3G06" H 2725 5276 50  0000 C CNN
+F 1 "74LVC3G07" H 2725 5276 50  0000 C CNN
 F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 2750 5100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2750 5100 50  0001 C CNN
 	3    2750 5100
@@ -1495,9 +1495,9 @@ MISO
 Text Label 10350 3200 2    50   ~ 0
 SCK
 Text Label 7550 8450 0    50   ~ 0
-Y_ENABLE
+B_ENABLE
 Text Label 4150 8450 0    50   ~ 0
-X_ENABLE
+A_ENABLE
 Text Label 3300 5550 0    50   ~ 0
 Z_ENABLE
 Text Label 3300 4200 0    50   ~ 0
@@ -1549,41 +1549,41 @@ Wire Wire Line
 Wire Wire Line
 	2850 10000 3200 10000
 Text Label 2950 10000 0    50   ~ 0
-X_M1
+A_M1
 Wire Wire Line
 	2850 10100 3200 10100
 Text Label 2950 10100 0    50   ~ 0
-X_M2
+A_M2
 Wire Wire Line
 	2850 10200 3200 10200
 Text Label 2950 10200 0    50   ~ 0
-X_M3
+A_M3
 Wire Wire Line
 	2850 10300 3200 10300
 Text Label 2950 10300 0    50   ~ 0
-X_RST
+A_RST
 Text Label 3750 10300 0    50   ~ 0
-X_SLP
+A_SLP
 Wire Wire Line
 	3550 8850 3900 8850
 Text Label 3650 8850 0    50   ~ 0
-X_M1
+A_M1
 Wire Wire Line
 	3550 8950 3900 8950
 Text Label 3650 8950 0    50   ~ 0
-X_M2
+A_M2
 Wire Wire Line
 	3550 9050 3900 9050
 Text Label 3650 9050 0    50   ~ 0
-X_M3
+A_M3
 Wire Wire Line
 	3550 8150 3900 8150
 Text Label 3650 8150 0    50   ~ 0
-X_RST
+A_RST
 Wire Wire Line
 	3550 8250 3900 8250
 Text Label 3650 8250 0    50   ~ 0
-X_SLP
+A_SLP
 Text Label 1900 10000 0    50   ~ 0
 MOT_MOSI
 Wire Wire Line
@@ -1597,7 +1597,7 @@ MOT_MISO
 Wire Wire Line
 	2350 10300 1850 10300
 Text Label 1900 10300 0    50   ~ 0
-MOT_X_CS
+MOT_A_CS
 $Comp
 L Connector_Generic:Conn_01x04 J17
 U 1 1 5FBC37F8
@@ -1641,21 +1641,21 @@ $EndComp
 Wire Wire Line
 	6250 10000 6600 10000
 Text Label 6350 10000 0    50   ~ 0
-Y_M1
+B_M1
 Wire Wire Line
 	6250 10100 6600 10100
 Text Label 6350 10100 0    50   ~ 0
-Y_M2
+B_M2
 Wire Wire Line
 	6250 10200 6600 10200
 Text Label 6350 10200 0    50   ~ 0
-Y_M3
+B_M3
 Wire Wire Line
 	6250 10300 6600 10300
 Text Label 6350 10300 0    50   ~ 0
-Y_RST
+B_RST
 Text Label 7150 10300 0    50   ~ 0
-Y_SLP
+B_SLP
 Text Label 5300 10000 0    50   ~ 0
 MOT_MOSI
 Wire Wire Line
@@ -1669,7 +1669,7 @@ MOT_MISO
 Wire Wire Line
 	5750 10300 5250 10300
 Text Label 5300 10300 0    50   ~ 0
-MOT_Y_CS
+MOT_B_CS
 $Comp
 L Connector_Generic:Conn_01x04 J23
 U 1 1 5FBE455A
@@ -1713,21 +1713,21 @@ $EndComp
 Wire Wire Line
 	9650 10000 10000 10000
 Text Label 9750 10000 0    50   ~ 0
-Z_M1
+C_M1
 Wire Wire Line
 	9650 10100 10000 10100
 Text Label 9750 10100 0    50   ~ 0
-Z_M2
+C_M2
 Wire Wire Line
 	9650 10200 10000 10200
 Text Label 9750 10200 0    50   ~ 0
-Z_M3
+C_M3
 Wire Wire Line
 	9650 10300 10000 10300
 Text Label 9750 10300 0    50   ~ 0
-Z_RST
+C_RST
 Text Label 10550 10300 0    50   ~ 0
-Z_SLP
+C_SLP
 Text Label 8700 10000 0    50   ~ 0
 MOT_MOSI
 Wire Wire Line
@@ -1741,7 +1741,7 @@ MOT_MISO
 Wire Wire Line
 	9150 10300 8650 10300
 Text Label 8700 10300 0    50   ~ 0
-MOT_Z_CS
+MOT_C_CS
 Wire Wire Line
 	9950 7850 10850 7850
 Wire Wire Line
@@ -1749,43 +1749,43 @@ Wire Wire Line
 Wire Wire Line
 	6950 8150 7300 8150
 Text Label 7050 8150 0    50   ~ 0
-Y_RST
+B_RST
 Wire Wire Line
 	6950 8250 7300 8250
 Text Label 7050 8250 0    50   ~ 0
-Y_SLP
+B_SLP
 Wire Wire Line
 	10350 8150 10700 8150
 Text Label 10450 8150 0    50   ~ 0
-Z_RST
+C_RST
 Wire Wire Line
 	10350 8250 10700 8250
 Text Label 10450 8250 0    50   ~ 0
-Z_SLP
+C_SLP
 Wire Wire Line
 	6950 8850 7300 8850
 Text Label 7050 8850 0    50   ~ 0
-Y_M1
+B_M1
 Wire Wire Line
 	6950 8950 7300 8950
 Text Label 7050 8950 0    50   ~ 0
-Y_M2
+B_M2
 Wire Wire Line
 	6950 9050 7300 9050
 Text Label 7050 9050 0    50   ~ 0
-Y_M3
+B_M3
 Wire Wire Line
 	10350 8850 10700 8850
 Text Label 10450 8850 0    50   ~ 0
-Z_M1
+C_M1
 Wire Wire Line
 	10350 8950 10700 8950
 Text Label 10450 8950 0    50   ~ 0
-Z_M2
+C_M2
 Wire Wire Line
 	10350 9050 10700 9050
 Text Label 10450 9050 0    50   ~ 0
-Z_M3
+C_M3
 $Comp
 L Device:R R4
 U 1 1 5FD654F6
@@ -1822,7 +1822,7 @@ $EndComp
 Wire Wire Line
 	7150 2700 6100 2700
 Text Label 6150 2700 0    50   ~ 0
-Y_CS
+B_CS
 $Comp
 L Device:R R10
 U 1 1 5FDEE6CD
@@ -1837,7 +1837,7 @@ $EndComp
 Wire Wire Line
 	7150 2000 6100 2000
 Text Label 6150 2000 0    50   ~ 0
-X_CS
+A_CS
 $Comp
 L Device:R R9
 U 1 1 5FE08FCA
@@ -1852,7 +1852,7 @@ $EndComp
 Wire Wire Line
 	7150 3600 6100 3600
 Text Label 6150 3600 0    50   ~ 0
-Z_CS
+C_CS
 $Comp
 L Device:R R11
 U 1 1 5FE23DC5
@@ -2463,15 +2463,15 @@ MOT_SCK
 Wire Wire Line
 	5800 2000 5100 2000
 Text Label 5500 2000 2    50   ~ 0
-MOT_X_CS
+MOT_A_CS
 Wire Wire Line
 	5800 2700 5100 2700
 Text Label 5500 2700 2    50   ~ 0
-MOT_Y_CS
+MOT_B_CS
 Wire Wire Line
 	5800 3600 5100 3600
 Text Label 5500 3600 2    50   ~ 0
-MOT_Z_CS
+MOT_C_CS
 $Comp
 L Connector_Generic:Conn_01x02 J15
 U 1 1 60A03767
@@ -2841,4 +2841,40 @@ Wire Wire Line
 Wire Wire Line
 	13100 5250 12650 5250
 Connection ~ 13100 5500
+Text Label 6150 2300 0    50   ~ 0
+X_DIR
+Text Label 6150 2400 0    50   ~ 0
+X_STEP
+Wire Wire Line
+	6100 2300 7150 2300
+Wire Wire Line
+	6100 2400 7150 2400
+Text Label 6150 3000 0    50   ~ 0
+Y_DIR
+Text Label 6150 3400 0    50   ~ 0
+Y_STEP
+Wire Wire Line
+	6100 3000 7150 3000
+Wire Wire Line
+	6100 3400 7150 3400
+Text Label 6150 3900 0    50   ~ 0
+Z_DIR
+Text Label 6150 4000 0    50   ~ 0
+Z_STEP
+Wire Wire Line
+	6100 3900 7150 3900
+Wire Wire Line
+	6100 4000 7150 4000
+Wire Wire Line
+	9350 2200 10400 2200
+Text Label 10000 2200 0    50   ~ 0
+Y_ENABLE
+Wire Wire Line
+	9350 2300 10400 2300
+Text Label 10000 2300 0    50   ~ 0
+Z_ENABLE
+Text Label 6500 2600 2    50   ~ 0
+X_ENABLE
+Wire Wire Line
+	7150 2600 6100 2600
 $EndSCHEMATC
