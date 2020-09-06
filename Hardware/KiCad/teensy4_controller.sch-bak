@@ -2456,7 +2456,7 @@ R+
 Text Label 10000 5250 0    50   ~ 0
 CT
 $Comp
-L teensy4_controller-rescue:RJ45_Wiznet_RB1-125BAG1A-Teensy4 J31
+L Teensy4:RJ45_Wiznet_RB1-125BAG1A J31
 U 1 1 5F4AB630
 P 11750 4850
 F 0 "J31" H 11750 5575 50  0000 C CNN

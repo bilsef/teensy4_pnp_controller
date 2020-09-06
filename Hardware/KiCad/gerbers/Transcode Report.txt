@@ -1,52 +1,114 @@
 
 
-   ---- Transcoding 'C:\Projects\TeensyController\teensy4_controller\gerbers\teensy4_controller-F_Cu.gbr' ----   Thu Aug 20 22:08:56 2020
+   ---- Transcoding 'C:\Temp\teensy4_controller_rev2_importZIP\teensy4_controller-Edge_Cuts.gbr' ----   Sun Sep  6 09:12:08 2020
 
-D14   --> D100
-D16   --> D101
-D17   --> D102
-D18   --> D103
-D19   --> D104
-D20   --> D105
-D22   --> D106
-D23   --> D107
-D24   --> D108
-D25   --> D109
-D26   --> D110
-D27   --> D111
-D28   --> D112
-D29   --> D113
-D30   --> D114
-D31   --> D115
-D32   --> D116
-D33   --> D117
-D34   --> D118
+D10   --> D100
 -----------------------------------------------------------------
 
 
-   ---- Transcoding 'C:\Projects\TeensyController\teensy4_controller\gerbers\teensy4_controller-F_SilkS.gbr' ----   Thu Aug 20 22:08:56 2020
+   ---- Transcoding 'C:\Temp\teensy4_controller_rev2_importZIP\teensy4_controller-F_Cu.gbr' ----   Sun Sep  6 09:12:08 2020
 
-D10   --> D119
-D11   --> D120
-D12   --> D121
+D10   --> D101
+D12   --> D102
+D13   --> D103
+D14   --> D104
+D15   --> D105
+D16   --> D106
+D17   --> D107
+D18   --> D108
+D19   --> D109
+D20   --> D110
+D21   --> D111
+D22   --> D112
+D23   --> D113
+D25   --> D114
+D26   --> D115
+D27   --> D116
+D28   --> D117
+D29   --> D118
+D30   --> D119
+D31   --> D120
+D32   --> D121
+D33   --> D122
+D34   --> D123
+D35   --> D124
+D36   --> D125
 -----------------------------------------------------------------
 
 
-   ---- Transcoding 'C:\Projects\TeensyController\teensy4_controller\gerbers\teensy4_controller-In1_Cu.gbr' ----   Thu Aug 20 22:08:56 2020
-
-D31   --> D122
------------------------------------------------------------------
-
-
-   ---- Transcoding 'C:\Projects\TeensyController\teensy4_controller\gerbers\teensy4_controller-In2_Cu.gbr' ----   Thu Aug 20 22:08:56 2020
-
-D31   --> D123
-D33   --> D124
-D34   --> D125
------------------------------------------------------------------
-
-
-   ---- Transcoding 'C:\Projects\TeensyController\teensy4_controller\gerbers\teensy4_controller-Margin.gbr' ----   Thu Aug 20 22:08:56 2020
+   ---- Transcoding 'C:\Temp\teensy4_controller_rev2_importZIP\teensy4_controller-F_Paste.gbr' ----   Sun Sep  6 09:12:08 2020
 
 D10   --> D126
+D12   --> D127
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Temp\teensy4_controller_rev2_importZIP\teensy4_controller-F_SilkS.gbr' ----   Sun Sep  6 09:12:08 2020
+
+D11   --> D128
+D12   --> D129
+D13   --> D130
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Temp\teensy4_controller_rev2_importZIP\teensy4_controller-In1_Cu.gbr' ----   Sun Sep  6 09:12:08 2020
+
+D10   --> D131
+D11   --> D132
+D12   --> D133
+D13   --> D134
+D14   --> D135
+D15   --> D136
+D17   --> D137
+D18   --> D138
+D19   --> D139
+D20   --> D140
+D21   --> D141
+D22   --> D142
+D24   --> D143
+D25   --> D144
+D26   --> D145
+D27   --> D146
+D28   --> D147
+D29   --> D148
+D30   --> D149
+D31   --> D150
+D32   --> D151
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Temp\teensy4_controller_rev2_importZIP\teensy4_controller-In2_Cu.gbr' ----   Sun Sep  6 09:12:08 2020
+
+D10   --> D152
+D11   --> D153
+D12   --> D154
+D13   --> D155
+D14   --> D156
+D15   --> D157
+D17   --> D158
+D18   --> D159
+D19   --> D160
+D20   --> D161
+D21   --> D162
+D22   --> D163
+D24   --> D164
+D25   --> D165
+D26   --> D166
+D27   --> D167
+D28   --> D168
+D29   --> D169
+D30   --> D170
+D31   --> D171
+D32   --> D172
+D33   --> D173
+D34   --> D174
+D35   --> D175
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Temp\teensy4_controller_rev2_importZIP\teensy4_controller-NPTH.drl' ----   Sun Sep  6 09:12:08 2020
+
+T1   --> T12
+T2   --> T13
+T3   --> T14
 -----------------------------------------------------------------
